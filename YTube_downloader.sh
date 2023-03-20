@@ -32,8 +32,8 @@
  pkg install python python-pip -y
  
  clear
- #youtube-dl download required for youtube video download
- pip install youtube-dl
+ #yt-dlp download required for youtube video download
+
  pip install yt-dlp
  pip install yt-dlp -U
  
