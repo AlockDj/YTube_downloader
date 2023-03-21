@@ -1,5 +1,5 @@
 #!bin/bash
-
+#AlockDj 
 # Colors
 # ----------------------------------------
  BL='\e[01;90m' &>/dev/null ; # Black
@@ -18,9 +18,11 @@
  clear
  
  echo -e $R"-----------------------------------------------\n"$N
- 
- echo -e $y"             YTube Downloader                   \n"$N
+  echo -e $y"             YTube Downloader                   \n"$N
+                               v 1.0 
  echo -e $r"------------------------------------------------\n"$N
+ 
+ echo -e $r"AlockDj"$N
  
  clear
  #pakages download
