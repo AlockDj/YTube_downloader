@@ -1,5 +1,7 @@
 #!bin/bash
+
 #AlockDj 
+
 # Colors
 # ----------------------------------------
  BL='\e[01;90m' &>/dev/null ; # Black
@@ -18,17 +20,18 @@
  clear
  
  echo -e $R"-----------------------------------------------\n"$N
-  echo -e $y"             YTube Downloader                   \n"$N
-                               v 1.0 
+ echo -e $y" |           YTube Downloader                  | \n"$N
+ echo -e $y" |                v 1.0                        | \n"$N 
+echo -e $y " |		  ##AlockDj##                      | \n"$N
  echo -e $r"------------------------------------------------\n"$N
  
- echo -e $r"AlockDj"$N
+ 
  
  clear
  #pakages download
  
  echo -e " Pakages are Download"
- echo -e " wait a minte ......."
+
  
  pkg update && pkg upgrade -y
  pkg install python python-pip -y
@@ -80,12 +83,12 @@ sleep 0.2
  chmod +x termux-url-opener
  	
  clear
-echo -e $Y$L"\n Finishing configuration..." $G" AlockDj  \n"$N
+echo -e $Y$L"\n Finishing configuration..." 
 
  sleep 3.5
 
  echo -e $G"\n   Installation Finished...\n"$N
-
+ echo -e $G "\n Now Share YouTube Link in termux and download your choice quality "
  kill -1 $PPID
 
  
